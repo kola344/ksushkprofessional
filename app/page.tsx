@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Header from "@/components/header/page";
 import About  from "@/components/about/page";
 import Products from "@/components/products/page";
