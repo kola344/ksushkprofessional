@@ -1,5 +1,7 @@
 // 📁 components/Lena/Header.tsx
 
+import Link from "next/link"
+
 export default function Header() {
   return (
     <header className="w-full px-6 py-4 bg-white border-b flex justify-between items-center">
@@ -8,9 +10,9 @@ export default function Header() {
 
       {/* 👉 Навигация */}
       <nav className="space-x-4">
-        <a href="/" className="text-gray-600 hover:text-black">Главная</a>
-        <a href="/about" className="text-gray-600 hover:text-black">О нас</a>
-        <a href="/products" className="text-gray-600 hover:text-black">Наши проекты</a>
+        <Link href="/" className="text-gray-600 hover:text-black">Главная</Link>
+        <Link href="/about" className="text-gray-600 hover:text-black">О нас</Link>
+        <Link href="/products" className="text-gray-600 hover:text-black">Наши проекты</Link>
       </nav>
     </header>
   )

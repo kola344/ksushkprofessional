@@ -1,5 +1,7 @@
 // 📁 components/Lena/Footer.tsx
 
+import Link from "next/link"
+
 export default function Footer() {
   return (
     <footer className="bg-gray-800 text-white px-6 py-8">
@@ -11,9 +13,9 @@ export default function Footer() {
 
         {/* 👉 Ссылки */}
         <nav className="space-x-4 text-sm">
-          <a href="#" className="hover:underline">Главная</a>
-          <a href="/about" className="hover:underline">О нас</a>
-          <a href="/products" className="hover:underline">Наши проекты</a>
+          <Link href="/" className="hover:underline">Главная</Link>
+          <Link href="/about" className="hover:underline">О нас</Link>
+          <Link href="/products" className="hover:underline">Наши проекты</Link>
         </nav>
       </div>
 

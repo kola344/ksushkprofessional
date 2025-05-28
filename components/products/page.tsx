@@ -1,5 +1,7 @@
 // 📁 components/Lena/Products.tsx
 
+import Image from "next/image"
+
 export default function Products() {
   return (
     <section className="px-6 py-10 bg-white">
@@ -8,11 +10,14 @@ export default function Products() {
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
         {/* 👉 Карточка 1 */}
         <div className="bg-gray-100 p-4 rounded-xl shadow text-center">
-          <img
-            src="/image.jpeg"
-            alt="Пример работы"
-            className="w-full h-auto rounded-md mb-4"
-          />
+          <div className="mb-4 relative w-full aspect-video">
+            <Image
+              src="/image.jpeg"
+              alt="Пример работы"
+              fill
+              className="object-cover rounded-md"
+            />
+          </div>
           <h3 className="text-lg font-semibold text-gray-800 mb-2">Дом 1</h3>
           <a
             href="#"
@@ -24,11 +29,14 @@ export default function Products() {
 
         {/* 👉 Карточка 2 */}
         <div className="bg-gray-100 p-4 rounded-xl shadow text-center">
-          <img
-            src="/image.jpeg"
-            alt="Пример работы"
-            className="w-full h-auto rounded-md mb-4"
-          />
+          <div className="mb-4 relative w-full aspect-video">
+            <Image
+              src="/image.jpeg"
+              alt="Пример работы"
+              fill
+              className="object-cover rounded-md"
+            />
+          </div>
           <h3 className="text-lg font-semibold text-gray-800 mb-2">Дом 2</h3>
           <a
             href="#"
@@ -40,11 +48,14 @@ export default function Products() {
 
         {/* 👉 Карточка 3 */}
         <div className="bg-gray-100 p-4 rounded-xl shadow text-center">
-          <img
-            src="/image.jpeg"
-            alt="Пример работы"
-            className="w-full h-auto rounded-md mb-4"
-          />
+          <div className="mb-4 relative w-full aspect-video">
+            <Image
+              src="/image.jpeg"
+              alt="Пример работы"
+              fill
+              className="object-cover rounded-md"
+            />
+          </div>
           <h3 className="text-lg font-semibold text-gray-800 mb-2">Коттедж</h3>
           <a
             href="#"
