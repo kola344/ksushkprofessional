@@ -1,0 +1,25 @@
+# 📦 Node.js
+node_modules
+.env
+.env.local
+.env.*.local
+
+# 🛠 Next.js
+.next
+out
+.vercel
+dist
+
+# 🧪 Тесты и покрытие
+coverage
+
+# ⚠️ Логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 💻 VS Code
+.vscode
+
+# 🍏 Mac OS
+.DS_Store
