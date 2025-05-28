@@ -19,7 +19,7 @@ export default function Footer() {
         </nav>
       </div>
 
-      {/* 👉 Копирайт */}
+      {/* 👉 Компания инфа */}
       <div className="text-center text-xs text-gray-400 mt-6">
         © {new Date().getFullYear()} СтройДом. Все права защищены.
       </div>
